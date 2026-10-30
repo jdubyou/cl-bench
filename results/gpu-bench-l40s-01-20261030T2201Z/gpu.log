@@ -1,0 +1,19 @@
+== A) whole GPU, Qwen/Qwen2.5-7B-Instruct
+whole_c1 output_tok_s=49 req_s=0.19 ttft_ms_median=44 tpot_ms_median=20.5
+whole_c16 output_tok_s=650 req_s=2.60 ttft_ms_median=160 tpot_ms_median=23.7
+whole_c64 output_tok_s=1853 req_s=7.41 ttft_ms_median=124 tpot_ms_median=31.3
+== B) shared GPU, N tenants x Qwen/Qwen2.5-1.5B-Instruct, each at concurrency 8
+shared_n1_t1 output_tok_s=1154 req_s=4.65 ttft_ms_median=37 tpot_ms_median=6.6
+shared_n2_t1 output_tok_s=589 req_s=2.37 ttft_ms_median=64 tpot_ms_median=13.0
+shared_n2_t2 output_tok_s=589 req_s=2.37 ttft_ms_median=68 tpot_ms_median=12.9
+shared_n4_t4 output_tok_s=295 req_s=1.19 ttft_ms_median=123 tpot_ms_median=25.9
+shared_n4_t2 output_tok_s=296 req_s=1.19 ttft_ms_median=126 tpot_ms_median=25.8
+shared_n4_t3 output_tok_s=296 req_s=1.19 ttft_ms_median=129 tpot_ms_median=25.8
+shared_n4_t1 output_tok_s=295 req_s=1.19 ttft_ms_median=123 tpot_ms_median=26.0
+shared_n7_t7 output_tok_s=168 req_s=0.68 ttft_ms_median=211 tpot_ms_median=45.4
+shared_n7_t2 output_tok_s=168 req_s=0.68 ttft_ms_median=218 tpot_ms_median=45.4
+shared_n7_t6 output_tok_s=168 req_s=0.68 ttft_ms_median=225 tpot_ms_median=45.4
+shared_n7_t5 output_tok_s=168 req_s=0.68 ttft_ms_median=232 tpot_ms_median=45.3
+shared_n7_t4 output_tok_s=168 req_s=0.68 ttft_ms_median=220 tpot_ms_median=45.4
+shared_n7_t1 output_tok_s=168 req_s=0.68 ttft_ms_median=232 tpot_ms_median=45.4
+shared_n7_t3 output_tok_s=168 req_s=0.68 ttft_ms_median=215 tpot_ms_median=45.7

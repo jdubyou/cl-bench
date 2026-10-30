@@ -1,0 +1,10 @@
+host=gpu-bench-l40s-01
+date=2026-10-30T22:01:12Z
+CPU(s):                                  16
+Model name:                              AMD EPYC 9745 128-Core Processor
+Thread(s) per core:                      1
+Socket(s):                               1
+avx512=yes
+mem_gb=62
+6.8.0-134-generic
+Ubuntu 24.04.5 LTS

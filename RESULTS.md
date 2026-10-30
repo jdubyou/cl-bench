@@ -12,8 +12,8 @@ volume and Ubuntu 24.04:
 Both CloudLogics VMs ran on **shared production hosts** next to other tenants' workloads; the AMD host
 was also running GPU VMs. Nothing was isolated or tuned. Raw output: [`results/`](results/).
 
-**Status:** CPU, memory, storage, PostgreSQL and the 2-hour consistency test are done on all three VMs.
-A GPU test (NVIDIA L40S) is in progress.
+**Status:** all CPU, memory, storage, PostgreSQL and consistency tests are done on all three VMs, plus a
+GPU inference test on one NVIDIA L40S (CloudLogics only so far).
 
 ## CPU and memory
 
@@ -68,6 +68,34 @@ small spread means other tenants on the same host are not slowing the VM down.
 
 The CloudLogics AMD VM was as steady as AWS while running about 13% faster, on a host shared with
 other tenants' CPU and GPU VMs.
+
+## GPU: LLM inference on one NVIDIA L40S (48 GB)
+
+CloudLogics VM with one L40S (PCI passthrough, 16 vCPU, 64 GB), vLLM 0.10.2, random prompts of 512 input
+and 256 output tokens. Script: [`tests/05_gpu.sh`](tests/05_gpu.sh). The matching AWS instance is
+**g6e.xlarge** (also one L40S); AWS results are not in yet.
+
+**Whole GPU, one Qwen2.5-7B-Instruct server**
+
+| Simultaneous requests | Total output tokens/s | Median time to first token | Median time per output token |
+|---|---|---|---|
+| 1 | 49 | 44 ms | 20.5 ms |
+| 16 | 650 | 160 ms | 23.7 ms |
+| 64 | **1,853** | 124 ms | 31.3 ms |
+
+**Shared GPU: N separate tenants, each with its own Qwen2.5-1.5B-Instruct server and 1/N of GPU memory, all
+running at once (time-slicing; the L40S does not support MIG)**
+
+| Tenants | Output tokens/s per tenant | Total output tokens/s | Median time per output token |
+|---|---|---|---|
+| 1 | 1,154 | 1,154 | 6.6 ms |
+| 2 | 589 | 1,178 | 13.0 ms |
+| 4 | 295 to 296 | 1,182 | 25.9 ms |
+| 7 | 168 | 1,176 | 45.4 ms |
+
+Total output stays flat as tenants are added, and every tenant gets an equal share (within 1%). Sharing
+splits the GPU fairly without losing throughput; each tenant's speed falls to about 1/N. The 7-tenant run
+gave each tenant 0.85/7 of GPU memory instead of 0.90/7 so all seven processes fit.
 
 ## Reproduce it
 

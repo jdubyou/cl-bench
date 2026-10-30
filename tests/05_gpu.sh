@@ -26,14 +26,16 @@ import json,sys; r=json.load(open(sys.argv[1]))
 print(f"{sys.argv[2]} output_tok_s={r['output_throughput']:.0f} req_s={r['request_throughput']:.2f} ttft_ms_median={r['median_ttft_ms']:.0f} tpot_ms_median={r['median_tpot_ms']:.1f}")
 PY
 }
+if [ -z "${SKIP_WHOLE:-}" ]; then
 echo "== A) whole GPU, Qwen/Qwen2.5-7B-Instruct" | tee -a "$OUT/gpu.log"
 M=Qwen/Qwen2.5-7B-Instruct; pid=$(serve $M 8000 0.90); wait_up 8000
 bench $M 8000 1 32 whole_c1; bench $M 8000 16 256 whole_c16; bench $M 8000 64 512 whole_c64
 kill $pid; wait $pid 2>/dev/null || true; sleep 10
+fi
 echo "== B) shared GPU, N tenants x Qwen/Qwen2.5-1.5B-Instruct, each at concurrency 8" | tee -a "$OUT/gpu.log"
 M=Qwen/Qwen2.5-1.5B-Instruct
-for N in 1 2 4 7; do
-  frac=$(python3 -c "print(round(0.90/$N - 0.005, 3))"); pids=()
+for N in ${TENANTS:-1 2 4 7}; do
+  frac=$(python3 -c "print(round(0.85/$N - 0.005, 3))")  # leaves room for each process's CUDA overhead; pids=()
   for t in $(seq 1 $N); do pids+=($(serve $M $((8100+t)) $frac)); wait_up $((8100+t)); done
   bp=(); for t in $(seq 1 $N); do bench $M $((8100+t)) 8 160 shared_n${N}_t${t} & bp+=($!); done; wait "${bp[@]}"
   for p in "${pids[@]}"; do kill $p; done; sleep 15
