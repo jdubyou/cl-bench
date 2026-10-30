@@ -15,6 +15,7 @@ for t in $TESTS; do
     storage) bash tests/02_storage.sh "$OUT" ;;
     postgres) bash tests/03_postgres.sh "$OUT" ;;
     consistency) bash tests/04_consistency.sh "$OUT" ;;
+    gpu) bash tests/05_gpu.sh "$OUT" ;;
   esac
 done
 echo "results in $OUT"
