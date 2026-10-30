@@ -1,0 +1,5 @@
+randread_4k read_iops=66188 write_iops=0 read_MBps=258 write_MBps=0 read_p99_us=11862 write_p99_us=0
+randwrite_4k read_iops=0 write_iops=62115 read_MBps=0 write_MBps=242 read_p99_us=0 write_p99_us=2670
+seqread_1m read_iops=1487 write_iops=0 read_MBps=1487 write_MBps=0 read_p99_us=27918 write_p99_us=0
+seqwrite_1m read_iops=0 write_iops=2517 read_MBps=0 write_MBps=2518 read_p99_us=0 write_p99_us=15532
+lat_4k_qd1 read_iops=870 write_iops=0 read_MBps=3 write_MBps=0 read_p99_us=1433 write_p99_us=0

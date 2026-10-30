@@ -1,0 +1,10 @@
+host=duckdb-bench-01
+date=2026-10-30T17:57:20Z
+CPU(s):                                  16
+Model name:                              Intel(R) Xeon(R) 6756E
+Thread(s) per core:                      1
+Socket(s):                               1
+avx512=no
+mem_gb=125
+6.8.0-124-generic
+Ubuntu 24.04.4 LTS

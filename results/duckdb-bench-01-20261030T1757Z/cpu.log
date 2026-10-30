@@ -1,0 +1,15 @@
+== 7-Zip (7z b), 16 threads, 3 runs
+Tot:            1496   3259  48451
+Tot:            1513   3311  49784
+Tot:            1517   3332  50252
+== sysbench cpu (prime 20000), 16 threads, 60 s
+    events per second: 17453.67
+== STREAM, 16 threads
+Copy:          165430.3     0.038883     0.038687     0.039072
+Scale:         122077.2     0.052705     0.052426     0.053572
+Add:           143420.5     0.067218     0.066936     0.067626
+Triad:         144166.2     0.066819     0.066590     0.067496
+== Linux 6.6 defconfig build, -j16, 3 runs (seconds)
+kernel_build_s 164.710205081
+kernel_build_s 165.440893713
+kernel_build_s 163.985143773

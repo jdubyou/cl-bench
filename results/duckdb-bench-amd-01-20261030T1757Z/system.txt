@@ -1,0 +1,10 @@
+host=duckdb-bench-amd-01
+date=2026-10-30T17:57:14Z
+CPU(s):                                  16
+Model name:                              AMD EPYC 9745 128-Core Processor
+Thread(s) per core:                      1
+Socket(s):                               1
+avx512=yes
+mem_gb=125
+6.8.0-124-generic
+Ubuntu 24.04.4 LTS
