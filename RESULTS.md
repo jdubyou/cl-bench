@@ -16,7 +16,7 @@ will be added here when they finish.
 | sysbench cpu, events/second | **27,322** | 17,454 | higher |
 | STREAM Triad, GB/s | **362** | 144 | higher |
 
-Run-to-run spread across the three repeats was under 1.1% on both VMs (7-Zip and kernel build).
+Spread across the three repeats: kernel build within 1% on both VMs; 7-Zip within 1.1% (AMD) and 3.7% (Intel).
 
 ## Block storage (fio on the attached volume)
 

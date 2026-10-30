@@ -15,7 +15,7 @@ max_wal_size = 32GB
 checkpoint_timeout = 15min
 wal_compression = on
 CONF
-sudo -u postgres $B/pg_ctl -D "$PGD" -l "$OUT/pg_server.log" -w start >/dev/null
+sudo -u postgres $B/pg_ctl -D "$PGD" -l "$PGD/server.log" -w start >/dev/null
 PB="sudo -u postgres $B/pgbench"
 echo "== pgbench init, scale 1000 (~15 GB)" | tee -a "$OUT/postgres.log"
 sudo -u postgres $B/createdb bench
@@ -25,4 +25,5 @@ $PB -c 32 -j 16 -T 300 -P 60 bench 2>&1 | grep -E "^(tps|latency average)" | tee
 echo "== select-only, 64 clients, 120 s" | tee -a "$OUT/postgres.log"
 $PB -S -c 64 -j 16 -T 120 bench 2>&1 | grep -E "^(tps|latency average)" | tee -a "$OUT/postgres.log"
 sudo -u postgres $B/pg_ctl -D "$PGD" -w stop >/dev/null
+sudo cp "$PGD/server.log" "$OUT/pg_server.log"; sudo chown $(id -u) "$OUT/pg_server.log"
 sudo rm -rf "$PGD"
