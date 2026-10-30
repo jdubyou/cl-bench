@@ -1,0 +1,10 @@
+host=ip-172-31-80-34
+date=2026-10-30T19:21:54Z
+CPU(s):                                  16
+Model name:                              AMD EPYC 9R14
+Thread(s) per core:                      1
+Socket(s):                               1
+avx512=yes
+mem_gb=123
+7.0.0-1014-aws
+Ubuntu 24.04.5 LTS
