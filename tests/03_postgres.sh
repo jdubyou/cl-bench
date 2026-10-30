@@ -24,6 +24,6 @@ echo "== TPC-B read/write, 32 clients, 300 s" | tee -a "$OUT/postgres.log"
 $PB -c 32 -j 16 -T 300 -P 60 bench 2>&1 | grep -E "^(tps|latency average)" | tee -a "$OUT/postgres.log"
 echo "== select-only, 64 clients, 120 s" | tee -a "$OUT/postgres.log"
 $PB -S -c 64 -j 16 -T 120 bench 2>&1 | grep -E "^(tps|latency average)" | tee -a "$OUT/postgres.log"
-sudo -u postgres $B/pg_ctl -D "$PGD" -w stop >/dev/null
+sudo -u postgres $B/pg_ctl -D "$PGD" -w -t 900 stop >/dev/null
 sudo cp "$PGD/server.log" "$OUT/pg_server.log"; sudo chown $(id -u) "$OUT/pg_server.log"
 sudo rm -rf "$PGD"
