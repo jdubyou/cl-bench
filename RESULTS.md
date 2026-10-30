@@ -4,8 +4,8 @@ Run on October 30, 2026 on two CloudLogics VMs (16 vCPU, 128 GB RAM, 500 GB bloc
 Both VMs ran on **shared production hosts** next to other tenants' workloads; the AMD host was also
 running GPU VMs. Nothing was isolated or tuned. Raw output: [`results/`](results/).
 
-**Status:** CPU, memory and storage done. PostgreSQL and the 2-hour consistency test are running and
-will be added here when they finish.
+**Status:** CPU, memory, storage and PostgreSQL done. The 2-hour consistency test and an AWS r7a.4xlarge
+run of the same script are in progress and will be added here when they finish.
 
 ## CPU and memory
 
@@ -29,6 +29,16 @@ Spread across the three repeats: kernel build within 1% on both VMs; 7-Zip withi
 | 4K random read latency, QD1 (p99) | 1.4 ms | 3.0 ms |
 
 Both volumes are on the same CloudLogics NVMe Ceph storage cluster.
+
+## PostgreSQL (pgbench, scale 1000, about 15 GB)
+
+| Test | AMD VM | Intel VM |
+|---|---|---|
+| TPC-B read/write, 32 clients, 300 s | **5,129 TPS** (6.2 ms avg) | 3,299 TPS (9.7 ms avg) |
+| Select-only, 64 clients, 120 s | **723,722 TPS** (0.09 ms avg) | 213,639 TPS (0.30 ms avg) |
+| Load 100M rows (seconds) | **135** | 289 |
+
+PostgreSQL 16, data on the attached block volume, settings in [`tests/03_postgres.sh`](tests/03_postgres.sh).
 
 ## Compare on AWS
 

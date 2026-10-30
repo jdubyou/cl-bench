@@ -1,0 +1,8 @@
+== pgbench init, scale 1000 (~15 GB)
+init_s 289
+== TPC-B read/write, 32 clients, 300 s
+latency average = 9.691 ms
+tps = 3298.814138 (without initial connection time)
+== select-only, 64 clients, 120 s
+latency average = 0.300 ms
+tps = 213638.629725 (without initial connection time)
