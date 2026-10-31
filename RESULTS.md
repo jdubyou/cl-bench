@@ -123,8 +123,30 @@ A 120-stream run crashed inside DeepStream (`double free detected`), so it is no
 
 The detector processed each batch of 30 camera frames in about 7 ms with almost no variation. The
 whole-pipeline figure DeepStream reports in this mode (median 368 ms) is dominated by the sample *files*
-being held back to real-time playback speed, not by GPU work, so it is not a camera-to-alert latency. A
-test with live camera streams (RTSP) is needed for that.
+being held back to real-time playback speed, not by GPU work, so it is not a camera-to-alert latency; see
+the live-camera test below for that.
+
+**Live cameras: 30 RTSP feeds over the network**
+
+A second CloudLogics VM on a different physical host acted as 30 security cameras, serving NVIDIA's 1080p
+sample as live RTSP streams at real-time speed ([`tools/rtsp_cameras.py`](tools/rtsp_cameras.py), Ubuntu's
+packaged GStreamer RTSP server). The GPU VM read all 30 over TCP and ran the same detector on every frame.
+Script: [`tests/07_live_rtsp.sh`](tests/07_live_rtsp.sh).
+
+| Stage | Median | p99 |
+|---|---|---|
+| Network, camera VM to GPU VM (one way, half of 0.37 ms ping) | 0.2 ms | |
+| RTSP jitter buffer (DeepStream default setting) | 100 ms (fixed setting) | |
+| Decode the video frame | 101 ms | 201 ms |
+| Detector, batch of 30 frames | 7.2 ms | 7.4 ms |
+| Frame enters decoder to detection done (measured) | 127 ms | 238 ms |
+| **Frame arrives from the camera to detection done** | **about 227 ms** | **about 338 ms** |
+
+All 30 cameras were analyzed at full rate (903 frames per second in total, 30 fps each). Most of the time is
+the jitter buffer and the video decoder holding frames, not the GPU's detection work. Turning the jitter
+buffer off made it worse (decoder in to detection: median 400 ms), so the default was kept. The decode figure
+depends on how the camera encodes its video (NVIDIA's sample file, not a real camera). Not included: the
+camera's own capture and encoding time, the network from a real site, and any multi-frame confirmation.
 
 ## Reproduce it
 

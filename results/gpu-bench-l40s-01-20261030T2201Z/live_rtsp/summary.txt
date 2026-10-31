@@ -1,0 +1,10 @@
+live RTSP: cameras=30 rtsp_jitter_buffer_ms=100 total_fps_median=902.7
+  decoder                                  n=  1074 median=  100.7 ms p95=  167.5 p99=  200.6
+  primary_gie                              n=  1074 median=    7.2 ms p95=    7.3 p99=    7.4
+  demuxer                                  n=  1074 median=    0.0 ms p95=    0.0 p99=    0.1
+  frame (decoder in -> detection done)     n=  1074 median=  127.1 ms p95=  205.0 p99=  237.5
+live RTSP: cameras=30 rtsp_jitter_buffer_ms=0 total_fps_median=904.0999999999999
+  decoder                                  n=  1299 median=  200.6 ms p95=  267.7 p99=  300.9
+  primary_gie                              n=  1299 median=    7.3 ms p95=    7.4 p99=    7.5
+  demuxer                                  n=  1299 median=    0.0 ms p95=    0.0 p99=    0.0
+  frame (decoder in -> detection done)     n=  1299 median=  400.1 ms p95=  467.3 p99=  500.4

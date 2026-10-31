@@ -1,0 +1,1 @@
+rtt min/avg/max/mdev = 0.268/0.413/4.917/0.648 ms
