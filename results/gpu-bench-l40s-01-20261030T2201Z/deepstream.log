@@ -1,0 +1,4 @@
+streams=30 intervals=16 total_fps=2334 per_stream_fps=77.8 equivalent_1080p30_cameras=78 equivalent_cameras_at_5fps=467
+streams=60 intervals=16 total_fps=2190 per_stream_fps=36.5 equivalent_1080p30_cameras=73 equivalent_cameras_at_5fps=438
+streams=60 intervals=16 total_fps=2212 per_stream_fps=36.9 equivalent_1080p30_cameras=74 equivalent_cameras_at_5fps=442
+latency streams=30 realtime: detector (primary_gie) median=7.2 ms p95=7.3 p99=7.4 per batch of 30 frames; whole-pipeline frame latency median=367.6 p99=475.8 ms, dominated by real-time pacing of the file source (see README note)

@@ -13,7 +13,7 @@ Both CloudLogics VMs ran on **shared production hosts** next to other tenants' w
 was also running GPU VMs. Nothing was isolated or tuned. Raw output: [`results/`](results/).
 
 **Status:** all CPU, memory, storage, PostgreSQL and consistency tests are done on all three VMs, plus a
-GPU inference test on one NVIDIA L40S (CloudLogics only so far).
+GPU inference test and NVIDIA's DeepStream video-analytics benchmark on one NVIDIA L40S (CloudLogics only so far).
 
 ## CPU and memory
 
@@ -96,6 +96,35 @@ running at once (time-slicing; the L40S does not support MIG)**
 Total output stays flat as tenants are added, and every tenant gets an equal share (within 1%). Sharing
 splits the GPU fairly without losing throughput; each tenant's speed falls to about 1/N. The 7-tenant run
 gave each tenant 0.85/7 of GPU memory instead of 0.90/7 so all seven processes fit.
+
+## Video analytics: NVIDIA DeepStream 8.0 on one L40S
+
+NVIDIA's own sample pipeline (`source30_1080p_dec_infer-resnet_tiled_display.txt`, container
+`nvcr.io/nvidia/deepstream:8.0-samples-multiarch`) with the display turned off: decode N copies of NVIDIA's
+1080p H.264 sample video and run NVIDIA's TrafficCamNet person/vehicle detector (ResNet-18, FP16) on every
+frame. Script: [`tests/06_deepstream.sh`](tests/06_deepstream.sh).
+
+**Capacity (video played as fast as the GPU can go)**
+
+| Streams | Total frames analyzed per second | Equivalent 1080p cameras at 30 fps | Equivalent cameras at 5 fps |
+|---|---|---|---|
+| 30 | **2,334** | **78** | 467 |
+| 60 (two runs) | 2,190 to 2,212 | 73 to 74 | 438 to 442 |
+
+The L40S tops out at about 2,200 to 2,300 frames per second with this model, about 140,000 frames a minute.
+GPU compute averaged 81% busy and the video decoders 31%, so the detector, not decoding, is the limit.
+A 120-stream run crashed inside DeepStream (`double free detected`), so it is not reported.
+
+**Latency (30 streams played at real-time speed, NVIDIA's built-in latency measurement)**
+
+| Stage | Median | p99 |
+|---|---|---|
+| Detector (`primary_gie`), one batch of 30 frames | **7.2 ms** | **7.4 ms** |
+
+The detector processed each batch of 30 camera frames in about 7 ms with almost no variation. The
+whole-pipeline figure DeepStream reports in this mode (median 368 ms) is dominated by the sample *files*
+being held back to real-time playback speed, not by GPU work, so it is not a camera-to-alert latency. A
+test with live camera streams (RTSP) is needed for that.
 
 ## Reproduce it
 

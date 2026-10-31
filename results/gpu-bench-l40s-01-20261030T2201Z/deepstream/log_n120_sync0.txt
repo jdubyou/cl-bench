@@ -1,0 +1,1075 @@
+
+(gst-plugin-scanner:37): GStreamer-WARNING **: 04:40:38.900: Failed to load plugin '/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstdtsdec.so': libdca.so.0: cannot open shared object file: No such file or directory
+
+(gst-plugin-scanner:37): GStreamer-WARNING **: 04:40:38.903: Failed to load plugin '/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstdvdread.so': libdvdread.so.8: cannot open shared object file: No such file or directory
+
+(gst-plugin-scanner:37): GStreamer-WARNING **: 04:40:38.908: Failed to load plugin '/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstresindvd.so': libdvdnav.so.4: cannot open shared object file: No such file or directory
+
+(gst-plugin-scanner:37): GStreamer-WARNING **: 04:40:38.922: Failed to load plugin '/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstpulseaudio.so': libFLAC.so.12: cannot open shared object file: No such file or directory
+
+(gst-plugin-scanner:37): GStreamer-WARNING **: 04:40:38.923: Failed to load plugin '/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstmplex.so': libmjpegutils-2.1.so.0: cannot open shared object file: No such file or directory
+
+(gst-plugin-scanner:37): GStreamer-WARNING **: 04:40:38.926: Failed to load plugin '/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstmpg123.so': libmpg123.so.0: cannot open shared object file: No such file or directory
+
+(gst-plugin-scanner:37): GStreamer-WARNING **: 04:40:38.940: Failed to load plugin '/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstsndfile.so': libFLAC.so.12: cannot open shared object file: No such file or directory
+
+(gst-plugin-scanner:37): GStreamer-WARNING **: 04:40:38.953: Failed to load plugin '/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstopenmpt.so': libmpg123.so.0: cannot open shared object file: No such file or directory
+
+(gst-plugin-scanner:37): GStreamer-WARNING **: 04:40:38.966: Failed to load plugin '/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstlame.so': libmp3lame.so.0: cannot open shared object file: No such file or directory
+
+(gst-plugin-scanner:37): GStreamer-WARNING **: 04:40:38.987: Failed to load plugin '/usr/lib/x86_64-linux-gnu/gstreamer-1.0/libgstfluidsynthmidi.so': libFLAC.so.12: cannot open shared object file: No such file or directory
+
+(gst-plugin-scanner:37): GStreamer-WARNING **: 04:40:38.999: Failed to load plugin '/usr/lib/x86_64-linux-gnu/gstreamer-1.0/deepstream/libnvdsgst_inferserver.so': libtritonserver.so: cannot open shared object file: No such file or directory
+
+(gst-plugin-scanner:37): GStreamer-WARNING **: 04:40:39.032: Failed to load plugin '/usr/lib/x86_64-linux-gnu/gstreamer-1.0/deepstream/libnvdsgst_ucx.so': libucs.so.0: cannot open shared object file: No such file or directory
+
+(gst-plugin-scanner:37): GStreamer-WARNING **: 04:40:39.042: Failed to load plugin '/usr/lib/x86_64-linux-gnu/gstreamer-1.0/deepstream/libnvdsgst_udp.so': librivermax.so.1: cannot open shared object file: No such file or directory
+0:00:00.324896620 [36m   35[00m 0x62fc508a3f00 [36mINFO   [00m [00m             nvinfer gstnvinfer.cpp:685:gst_nvinfer_logger:<primary_gie>[00m NvDsInferContext[UID 1]: Info from NvDsInferContextImpl::deserializeEngineAndBackend() <nvdsinfer_context_impl.cpp:2109> [UID = 1]: deserialized trt engine from :/opt/nvidia/deepstream/deepstream-8.0/samples/configs/deepstream-app/../../models/Primary_Detector/resnet18_trafficcamnet_pruned.onnx_b120_gpu0_fp16.engine
+0:00:00.324961363 [36m   35[00m 0x62fc508a3f00 [36mINFO   [00m [00m             nvinfer gstnvinfer.cpp:685:gst_nvinfer_logger:<primary_gie>[00m NvDsInferContext[UID 1]: Info from NvDsInferContextImpl::generateBackendContext() <nvdsinfer_context_impl.cpp:2212> [UID = 1]: Use deserialized engine model: /opt/nvidia/deepstream/deepstream-8.0/samples/configs/deepstream-app/../../models/Primary_Detector/resnet18_trafficcamnet_pruned.onnx_b120_gpu0_fp16.engine
+0:00:00.334972384 [36m   35[00m 0x62fc508a3f00 [36mINFO   [00m [00m             nvinfer gstnvinfer_impl.cpp:343:notifyLoadModelStatus:<primary_gie>[00m [UID 1]: Load new model:/opt/nvidia/deepstream/deepstream-8.0/samples/configs/deepstream-app/config_infer_bench.txt sucessfully
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.287: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder0:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.291: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder1:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.442: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder8:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.442: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder6:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.442: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder3:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.442: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder2:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.442: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder7:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.442: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder4:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.442: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder5:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.446: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder9:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.471: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder11:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.686: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder17:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.686: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder14:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.686: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder12:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.686: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder15:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.686: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder20:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.686: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder21:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.795: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder1:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.796: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder0:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.796: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder1:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.797: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder0:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.940: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder26:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.940: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder13:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.940: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder19:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.941: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder8:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:39.967: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder8:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.030: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder2:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.031: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder2:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.128: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder3:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.129: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder3:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.201: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder12:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.203: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder12:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.254: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder5:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.255: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder5:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.302: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder47:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.303: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder35:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.303: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder43:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.303: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder45:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.303: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder41:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.303: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder27:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.303: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder46:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.303: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder28:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.304: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder25:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.396: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder15:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.397: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder15:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.518: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder13:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.518: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder13:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.589: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder11:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.589: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder11:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.592: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder9:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.593: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder9:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.621: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder33:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.621: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder37:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.621: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder10:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.682: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder29:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.770: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder14:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.777: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder14:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.791: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder50:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.791: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder49:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.811: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder45:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.811: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder45:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.927: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder6:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.928: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder6:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.971: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder59:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.971: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder63:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.971: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder38:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:40.971: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder34:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.053: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder27:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.054: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder27:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.054: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder26:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.055: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder26:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.099: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder16:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.099: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder62:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.099: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder48:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.099: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder71:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.202: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder46:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.204: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder46:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.268: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder74:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.292: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder17:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.292: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder17:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.386: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder70:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.489: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder55:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.529: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder47:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.529: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder47:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.529: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder37:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.531: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder37:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.582: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder84:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.582: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder99:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.582: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder81:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.706: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder43:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.706: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder85:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.706: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder43:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.706: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder36:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.706: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder57:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.706: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder72:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.763: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder49:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.763: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder49:sink> Got data flow before segment event
+INFO: ../nvdsinfer/nvdsinfer_model_builder.cpp:363 [FullDims Engine Info]: layers num: 3
+0   INPUT  kFLOAT input_1:0       3x544x960       min: 1x3x544x960     opt: 120x3x544x960   Max: 120x3x544x960   
+1   OUTPUT kFLOAT output_cov/Sigmoid:0 4x34x60         min: 0               opt: 0               Max: 0               
+2   OUTPUT kFLOAT output_bbox/BiasAdd:0 16x34x60        min: 0               opt: 0               Max: 0               
+
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+
+Runtime commands:
+	h: Print this help
+	q: Quit
+
+	p: Pause
+	r: Resume
+
+** INFO: <bus_callback:291>: Pipeline ready
+
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin0/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin1/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin2/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin4/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin3/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin5/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin7/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin8/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin6/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin9/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin10/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin11/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin12/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin13/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin15/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin14/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin16/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin17/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin18/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin19/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin20/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin21/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin22/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin23/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin25/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin24/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin26/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin27/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin28/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin29/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin30/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin31/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin32/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin33/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin34/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin35/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin36/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin37/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin38/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin39/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin40/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin42/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin41/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin43/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin44/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin45/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin46/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin47/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin48/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin49/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin50/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin51/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin52/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin53/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin54/GstURIDecodeBin:src_elem
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.837: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder30:sink> Got data flow before segment event
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin55/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin56/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin57/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin58/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin59/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin60/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin61/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin62/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin64/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin63/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin65/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin66/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin67/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin68/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin69/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin70/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin72/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin71/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin73/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin74/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin76/GstURIDecodeBin:src_elem
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.838: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder103:sink> Got data flow before segment event
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin78/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin75/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin77/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin80/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin79/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin81/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin82/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin83/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin84/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin86/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin85/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin87/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin88/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin89/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin90/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin91/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin92/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin93/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin94/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin96/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin95/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin97/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin99/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin101/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin98/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin100/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin102/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin103/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin104/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin105/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin106/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin107/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin109/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin108/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin113/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin111/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin112/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin110/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin114/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin116/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin115/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin117/GstURIDecodeBin:src_elem
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin119/GstURIDecodeBin:src_elem
+WARNING from src_elem: No decoder available for type 'audio/mpeg, mpegversion=(int)4, framed=(boolean)true, stream-format=(string)raw, level=(string)2, base-profile=(string)lc, profile=(string)lc, codec_data=(buffer)119056e500, rate=(int)48000, channels=(int)2'.
+Debug info: ../gst/playback/gsturidecodebin.c(1003): unknown_type_cb (): /GstPipeline:pipeline/GstBin:multi_src_bin/GstBin:src_sub_bin118/GstURIDecodeBin:src_elem
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.893: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder24:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.893: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder31:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.893: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder91:sink> Got data flow before segment event
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+Opening in BLOCKING MODE 
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.914: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder28:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.915: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder28:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.918: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder21:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.919: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder21:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.928: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder75:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.928: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder39:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.928: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder60:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.928: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder73:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.929: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder94:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.959: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder71:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.960: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder71:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.979: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder116:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.979: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder77:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:41.979: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder66:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.007: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder102:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.007: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder83:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.030: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder61:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.049: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder50:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.049: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder99:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.050: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder50:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.051: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder99:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.058: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder38:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.062: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder81:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.062: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder81:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.063: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder38:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.093: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder109:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.100: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder74:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.102: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder74:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.114: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder107:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.114: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder115:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.114: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder64:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.114: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder88:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.115: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder23:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.127: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder70:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.133: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder70:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.139: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder51:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.139: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder100:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.139: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder22:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.140: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder56:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.175: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder94:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.175: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder94:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.179: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder30:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.180: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder30:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.210: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder66:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.211: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder66:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.219: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder31:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.221: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder31:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.223: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder82:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.223: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder97:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.246: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder34:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.247: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder34:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.261: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder57:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.262: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder57:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.282: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder67:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.300: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder110:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.328: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder63:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.329: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder63:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.362: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder64:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.363: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder64:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.367: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder85:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.367: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder39:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.368: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder39:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.368: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder85:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.415: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder105:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.415: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder42:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.415: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder65:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.459: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder115:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.461: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder115:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.477: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder103:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.478: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder25:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.478: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder25:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.480: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder103:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.507: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder44:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.508: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder112:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.508: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder52:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.517: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder109:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.522: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder109:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.535: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder107:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.536: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder32:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.537: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder107:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.560: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder20:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.560: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder20:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.569: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder22:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.571: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder22:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.600: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder106:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.619: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder24:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.620: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder24:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.649: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder16:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.650: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder16:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.651: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder65:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.652: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder65:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.664: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder10:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.665: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder10:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.699: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder40:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.700: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder67:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.701: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder67:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.740: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder59:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.741: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder59:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.767: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder73:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.769: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder73:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.782: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder101:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.814: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder93:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.817: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder110:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.819: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder110:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.839: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder112:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.843: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder112:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.859: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder48:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.860: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder48:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.860: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder41:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.861: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder41:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.882: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder58:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.882: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder86:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.882: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder96:sink> Got data flow before segment event
+
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.930: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder44:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.932: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder44:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.938: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder55:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.942: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder55:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.963: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder23:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.965: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder23:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.967: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder75:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.968: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder75:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.968: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder68:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.968: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder108:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.974: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder56:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:42.974: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder56:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.004: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder101:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.005: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder101:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.042: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder88:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.043: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder88:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.066: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder51:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.067: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder51:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.102: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder77:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.103: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder77:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.139: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder80:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.156: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder36:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.160: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder36:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.181: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder19:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.182: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder69:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.183: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder19:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.223: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder102:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.226: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder102:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.231: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder93:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.233: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder93:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.252: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder62:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.252: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder62:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.256: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder60:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.258: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder60:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.273: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder35:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.273: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder35:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.288: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder104:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.289: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder98:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.289: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder79:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.289: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder95:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.289: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder90:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.316: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder86:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.317: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder86:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.319: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder58:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.320: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder87:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.320: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder58:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.354: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder33:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.355: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder33:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.369: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder100:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.370: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder100:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.397: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder114:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.418: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder116:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.419: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder116:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.444: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder119:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.454: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder97:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.454: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder97:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.454: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder84:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.454: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder84:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.502: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder54:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.516: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder90:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.517: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder90:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.542: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder105:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.544: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder105:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.552: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder53:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.552: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder92:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.573: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder111:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.614: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder29:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.616: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder29:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.617: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder98:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.618: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder98:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.637: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder82:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.638: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder82:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.656: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder113:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.661: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder61:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.661: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder61:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.688: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder68:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.689: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder68:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.700: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder69:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.702: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder69:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.718: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder79:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.720: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder79:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.726: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder89:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.742: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder87:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.743: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder87:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.782: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder108:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.783: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder108:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.826: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder83:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.827: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder83:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.846: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder42:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.847: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder42:sink> Got data flow before segment event
+
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.873: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder113:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.874: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder113:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.888: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder111:sink> Got data flow before segment event
+
+(deepstream-app:35): GStreamer-WARNING **: 04:40:43.889: ../gst/gstpad.c:4463:gst_pad_chain_data_unchecked:<nvv4l2decoder111:sink> Got data flow before segment event
+
+free(): double free detected in tcache 2
+timeout: the monitored command dumped core

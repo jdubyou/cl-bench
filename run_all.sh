@@ -16,6 +16,7 @@ for t in $TESTS; do
     postgres) bash tests/03_postgres.sh "$OUT" ;;
     consistency) bash tests/04_consistency.sh "$OUT" ;;
     gpu) bash tests/05_gpu.sh "$OUT" ;;
+    deepstream) bash tests/06_deepstream.sh "$OUT" ;;
   esac
 done
 echo "results in $OUT"
